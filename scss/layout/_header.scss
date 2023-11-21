@@ -1,0 +1,13 @@
+@import '../reset/mixin';
+@import'../reset/vars';
+
+.logo{
+    @include logo-total;
+}
+
+.titulo{
+    color: $color-titulo;
+    font-size: 10em;
+    
+
+}

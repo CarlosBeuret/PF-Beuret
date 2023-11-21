@@ -1,0 +1,18 @@
+//Reset
+
+@import './reset/reset';
+@import './reset/mixin';
+@import './reset/vars';
+@import './reset/grid';
+
+//Component
+// @import './reset/reset';
+
+//Layout
+@import './layout/header';
+@import './layout/main';
+@import './layout/footer';
+
+
+//mq
+@import './mq/mq';
