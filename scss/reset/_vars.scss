@@ -2,3 +2,18 @@
 $font-page:Arial, Helvetica, sans-serif;
 $background-page: #C2C0C0 ;
 $color-titulo: #ca7118;
+
+
+$background-marcas:(
+    gilera: rgb(243, 93, 6),
+    keller: red,
+    hero:red,
+    motomel:blue,
+
+);
+
+@each $marca, $color in $background-marcas{
+    .color__#{$marca}{
+        color: $color;
+    }
+}
