@@ -1,6 +1,11 @@
 @import './vars';
 
 *{
-    font-family: $font-page;
-    font-size: 14px;
+    font-family: 'Luckiest Guy', cursive;;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
 }
