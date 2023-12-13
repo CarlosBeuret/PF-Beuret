@@ -7,5 +7,21 @@
 .foto-galeria{
     @include foto;
 }
+.titulo-qs{
+    color: $color-titulo;
+   
+   
+    &-principal{
+        @extend.titulo-qs;
+        font-size: 3rem;
+    }
+    &-secundario{
+        @extend.titulo-qs;
+        font-size: 2.5rem;
+    }
+}
 
 
+.paragraph-one{
+    font-size: 1.5rem;
+}

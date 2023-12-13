@@ -155,6 +155,10 @@ html {
   font-size: 10rem;
 }
 
+#nav-var {
+  background-color: #3498db; /* Cambia el color de fondo a tu preferencia */
+}
+
 .titulo-galeria {
   font-size: 3rem;
 }
@@ -164,6 +168,37 @@ html {
   height: 200px;
   object-fit: content;
   border-radius: 50px;
+}
+
+.titulo-qs, .titulo-qs-secundario, .titulo-qs-principal {
+  color: rgb(243, 93, 6);
+}
+.titulo-qs-principal {
+  font-size: 3rem;
+}
+.titulo-qs-secundario {
+  font-size: 2.5rem;
+}
+
+.paragraph-one {
+  font-size: 1.5rem;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.titulo-foot {
+  font-size: 6rem;
+}
+
+.text-foot {
+  font-size: 2rem;
 }
 
 /* MEDIA QUERIES*/
@@ -181,6 +216,12 @@ html {
     grid-column: 4/9;
     align-self: flex-end;
     justify-self: flex-end;
+  }
+  .titulo-foot {
+    font-size: 4rem;
+  }
+  .text-foot {
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 200px) and (max-width: 480px) {
@@ -201,6 +242,15 @@ html {
     grid-column: 4/11;
     align-self: center;
     justify-self: center;
+  }
+  .foot {
+    flex-direction: column;
+  }
+  .titulo-foot {
+    font-size: 4rem;
+  }
+  .text-foot {
+    font-size: 1.5rem;
   }
 }
 

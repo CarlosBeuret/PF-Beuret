@@ -20,7 +20,14 @@
         grid-column: 4/9;
         align-self: flex-end;
         justify-self: flex-end; 
-    }   
+    } 
+    .titulo-foot{
+        font-size: 4rem;
+        
+    }
+    .text-foot{
+        font-size: 1.5rem;
+    }  
 }
 
 @media(min-width:200px) and (max-width:480px){
@@ -45,5 +52,15 @@
         grid-column: 4/11;
         align-self: center;
         justify-self: center; 
-    }   
+    }  
+    .foot{
+        flex-direction: column;
+    }
+    .titulo-foot{
+        font-size: 4rem; 
+    }
+    .text-foot{
+        font-size: 1.5rem;
+    }
 }
+

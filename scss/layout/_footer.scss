@@ -1,0 +1,15 @@
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black ;
+    color: white;
+}
+.titulo-foot{
+    font-size: 6rem;
+    
+}
+.text-foot{
+    font-size: 2rem;
+}
