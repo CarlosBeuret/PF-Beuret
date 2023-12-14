@@ -62,7 +62,7 @@ html {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  background-color: #B3B6B7;
+  background-color: #D1D3D3;
 }
 
 .grid-header {
@@ -71,7 +71,7 @@ html {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 10px;
   row-gap: 10px;
-  background-color: #B3B6B7;
+  background-color: #D1D3D3;
 }
 
 .grid-logo {
@@ -88,11 +88,11 @@ html {
 
 .grid-nav {
   grid-row: 3/4;
-  grid-column: 1/5;
+  grid-column: 5/5;
   justify-self: stretch;
   align-self: end;
   width: 100%;
-  background-color: #B3B6B7;
+  background-color: #D1D3D3;
 }
 
 .grid-galeria {
@@ -155,8 +155,8 @@ html {
   font-size: 10rem;
 }
 
-#nav-var {
-  background-color: #3498db; /* Cambia el color de fondo a tu preferencia */
+.nav-font {
+  font-size: 2rem;
 }
 
 .titulo-galeria {
@@ -223,6 +223,9 @@ html {
   .text-foot {
     font-size: 1.5rem;
   }
+  .nav-font {
+    font-size: 1.5rem;
+  }
 }
 @media (min-width: 200px) and (max-width: 480px) {
   .titulo {
@@ -251,6 +254,9 @@ html {
   }
   .text-foot {
     font-size: 1.5rem;
+  }
+  .nav-font {
+    font-size: 1rem;
   }
 }
 

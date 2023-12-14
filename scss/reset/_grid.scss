@@ -19,7 +19,7 @@
     grid-template-columns:repeat(4, 1fr);
     column-gap: 10px;
     row-gap: 10px;
-    background-color: #B3B6B7  ;
+    background-color:$background-page ;
 }
 
 .grid-logo {
@@ -35,7 +35,7 @@
 }
 .grid-nav{
     grid-row:3/4;
-    grid-column: 1/5;
+    grid-column: 5/5;
     justify-self:stretch;
     align-self: end;
     width: 100%;

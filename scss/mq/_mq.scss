@@ -28,6 +28,11 @@
     .text-foot{
         font-size: 1.5rem;
     }  
+    .nav-font{
+        font-size: 1.5rem;
+        
+    }
+  
 }
 
 @media(min-width:200px) and (max-width:480px){
@@ -61,6 +66,10 @@
     }
     .text-foot{
         font-size: 1.5rem;
+    }
+    .nav-font{
+        font-size: 1rem;
+        
     }
 }
 
